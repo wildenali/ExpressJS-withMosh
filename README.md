@@ -12,3 +12,8 @@ https://github.com/wildenali/ExpressJS-withMosh.git
 4. Install nodemon `$ npm i -g nodemon`
 
 - How to use `nodemon index.js`
+
+5. GET, Get data by ID
+
+- Test `http://localhost:3000/api/courses/1`
+- Test `http://localhost:3000/api/courses/10`
