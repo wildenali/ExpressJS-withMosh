@@ -8,3 +8,7 @@ https://github.com/wildenali/ExpressJS-withMosh.git
 3. Create server file `index.js`
 
 - Test [http://localhost:3000/](http://localhost:3000/)
+
+4. Install nodemon `$ npm i -g nodemon`
+
+- How to use `nodemon index.js`
