@@ -5,3 +5,6 @@ https://github.com/wildenali/ExpressJS-withMosh.git
 
 1. Initial JS project `$ npm init`
 2. Install ExpressJS `$ npm install express`
+3. Create server file `index.js`
+
+- Test [http://localhost:3000/](http://localhost:3000/)
