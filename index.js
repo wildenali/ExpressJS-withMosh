@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+app.use(express.json());
+
 const courses = [
   { id: 1, name: "course1" },
   { id: 2, name: "course2" },
@@ -25,6 +27,22 @@ app.get("/api/courses/:id", (req, res) => {
     // 404
     res.status(404).send("The course with the given ID was not found");
   }
+  res.send(course);
+});
+
+// POST
+app.post("/api/courses", (req, res) => {
+  if (!req.body.name || req.body.name.length < 3) {
+    // 400 Bad Request
+    res.status(400).send("Name is requires dan minimal 3 huruf");
+    return;
+  }
+
+  const course = {
+    id: courses.length + 1,
+    name: req.body.name,
+  };
+  courses.push(course);
   res.send(course);
 });
 
