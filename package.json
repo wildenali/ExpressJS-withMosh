@@ -1,0 +1,22 @@
+{
+  "name": "expressjs-withmosh",
+  "version": "1.0.0",
+  "description": "Tutorial from<br/>\r https://github.com/wildenali/ExpressJS-withMosh.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildenali/ExpressJS-withMosh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildenali/ExpressJS-withMosh/issues"
+  },
+  "homepage": "https://github.com/wildenali/ExpressJS-withMosh#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
